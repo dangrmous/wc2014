@@ -42,7 +42,14 @@ var displayGames = function(games){
     games.map(function(game){
 
             if((game.home_team.country == team) || (game.away_team.country == team)){
+                if(game.winner){
+                console.log("Match number: " + game.match_number);
+                console.log(game.home_team.country + ": " + game.home_team.goals + "  " + game.away_team.country +
+                ": " + game.away_team.goals);
                 game.winner && console.log("Winner: " + game.winner);
+                    console.log("--------")
+                }
+
             }
 
     })
