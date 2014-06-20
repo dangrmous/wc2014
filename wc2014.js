@@ -3,7 +3,7 @@ var http = require('http');
 var urlToFetch = 'http://worldcup.sfg.io/matches';
 
 var usage = function () {
-    console.log("Usage: node scratch 'team name' - (if the team name is two words, use quotes)");
+    console.log("Usage: node wc2014 'team name' - (if the team name is two words, use quotes)");
 }
 
 var team = process.argv[2];
