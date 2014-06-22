@@ -47,7 +47,7 @@ var displayGames = function(games){
                 console.log(game.home_team.country + ": " + game.home_team.goals + "  " + game.away_team.country +
                 ": " + game.away_team.goals);
                 game.winner && console.log("Winner: " + game.winner);
-                    console.log("--------")
+                    console.log("---------")
                 }
 
             }
